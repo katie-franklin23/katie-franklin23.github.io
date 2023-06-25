@@ -1,3 +1,14 @@
+#blog-title {
+  padding-top: 50px;
+  font-size: bold;
+}
+
+.mySection {
+  border: #b58bda;
+  background-color: rgb(217, 141, 217);
+  text-align: center;
+}
+
 .container {
   margin: 25px;
   width: 350px;
@@ -5,10 +16,6 @@
   text-align: center;
   display: flex;
   justify-content: center;
-}
-
-.welcome-title {
-  padding-top: 50px;
 }
 
 ul {
@@ -45,12 +52,13 @@ p {
   color: #000000;
 }
 .textsection {
-  padding-top: 1000px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-@media only screen and (max-width: 970px) {
-  body {
-    display: grid;
-    align-items: center;
-  }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
