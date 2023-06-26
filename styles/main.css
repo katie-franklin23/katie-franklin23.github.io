@@ -9,15 +9,6 @@
   text-align: center;
 }
 
-.container {
-  margin: 25px;
-  width: 350px;
-  height: 200px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -61,4 +52,13 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    background: lightgreen;
+  }
+  .mySection {
+    background: lightgreen;
+  }
 }
